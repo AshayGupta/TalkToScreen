@@ -1,3 +1,4 @@
+import { Utils } from './../App Constants/utils';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -13,13 +14,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { SpeechRecognition } from '@ionic-native/speech-recognition';
 
+
 @NgModule({
   declarations: [
     MyApp,
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
   ],
   imports: [
     BrowserModule,
@@ -37,7 +39,8 @@ import { SpeechRecognition } from '@ionic-native/speech-recognition';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    SpeechRecognition
+    SpeechRecognition,
+    Utils
   ]
 })
 export class AppModule {}

@@ -2,18 +2,18 @@
   "_args": [
     [
       {
-        "raw": "cordova-plugin-speechrecognition",
+        "raw": "cordova-plugin-speechrecognition@^1.2.0",
         "scope": null,
         "escapedName": "cordova-plugin-speechrecognition",
         "name": "cordova-plugin-speechrecognition",
-        "rawSpec": "",
-        "spec": "latest",
-        "type": "tag"
+        "rawSpec": "^1.2.0",
+        "spec": ">=1.2.0 <2.0.0",
+        "type": "range"
       },
       "/Users/ashaygupta/Desktop/My Folder/myApps/Ionic Projects/TalkToScreen/TTS Working"
     ]
   ],
-  "_from": "cordova-plugin-speechrecognition@latest",
+  "_from": "cordova-plugin-speechrecognition@>=1.2.0 <2.0.0",
   "_id": "cordova-plugin-speechrecognition@1.2.0",
   "_inCache": true,
   "_location": "/cordova-plugin-speechrecognition",
@@ -29,13 +29,13 @@
   "_npmVersion": "4.1.2",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "cordova-plugin-speechrecognition",
+    "raw": "cordova-plugin-speechrecognition@^1.2.0",
     "scope": null,
     "escapedName": "cordova-plugin-speechrecognition",
     "name": "cordova-plugin-speechrecognition",
-    "rawSpec": "",
-    "spec": "latest",
-    "type": "tag"
+    "rawSpec": "^1.2.0",
+    "spec": ">=1.2.0 <2.0.0",
+    "type": "range"
   },
   "_requiredBy": [
     "#USER",
@@ -44,7 +44,7 @@
   "_resolved": "https://registry.npmjs.org/cordova-plugin-speechrecognition/-/cordova-plugin-speechrecognition-1.2.0.tgz",
   "_shasum": "005f10c896fd9293d8587fe5522a2b642dea970a",
   "_shrinkwrap": null,
-  "_spec": "cordova-plugin-speechrecognition",
+  "_spec": "cordova-plugin-speechrecognition@^1.2.0",
   "_where": "/Users/ashaygupta/Desktop/My Folder/myApps/Ionic Projects/TalkToScreen/TTS Working",
   "author": {
     "name": "Peter Bakondy"
